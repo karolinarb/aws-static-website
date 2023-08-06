@@ -5,7 +5,7 @@ provider "aws" {
 module "aws_static_website" {
   source = "./modules/aws-static-website"
 
-  bucket_name = "static-website-439272626435"
+  bucket_name = <unique_bucket_name>
 
   tags = {
     Terraform   = "true"
